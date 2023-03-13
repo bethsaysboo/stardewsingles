@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #6da5b9;
+  color: #fcf7f8;
+  /* padding: 48px 64px 48px; */
+}
+/* Layout */
+#root {
+  background-color: #6da5b9;
+  /* max-width: 1700px;
+  margin: 0 auto; */
+}
+.header {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-family: "Roboto Slab", serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header h1 {
+  font-size: 45px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 175px;
+  height: 175px;
+}
+.instructions {
+  width: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main {
+  padding: 10px;
+
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  grid-template-columns: auto auto auto;
+  gap: 48px;
+}
+@media (max-width: 1300px) {
+  .main {
+    padding: 10px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+
+  .nonplayablechar {
+    border-radius: 25px;
+    padding: 25px;
+    background-color: #d7ddcf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-family: "Roboto Slab", serif;
+  }
+}
+@media (max-width: 950px) {
+  .main {
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  .nonplayablechar {
+    border-radius: 25px;
+    padding: 25px;
+    background-color: #d7ddcf;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    color: black;
+    font-family: "Roboto Slab", serif;
+  }
+}
+.nonplayablechar {
+  border-radius: 25px;
+  padding: 25px;
+  background-color: #d7ddcf;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-family: "Roboto Slab", serif;
+}
+
+/* .npcbtn {
+  border-radius: 25px;
+  padding: 10px;
+  background-color: #d7ddcf;
+
+  text-align: center;
+  color: black;
+  font-family: "Roboto Slab", serif;
+} */
+.npcname {
+  padding: 10px;
+  font-family: "Roboto Slab", serif;
+  align-self: flex-start;
+}
+.persondetails {
+  background-color: #d7ddcf;
+  width: auto;
+  height: auto;
+  border-radius: 25px;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  color: black;
+  font-family: "Roboto Slab", serif;
+  padding: 25px;
+}
+/* aside {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  justify-content: center;
+} */
+.npclist {
+  list-style: none;
+  flex: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+/* section {
+  width: 400px;
+  display: block;
+  justify-content: center;
+} */
+.descriptiondiv {
+  justify-content: right;
+  text-align: center;
+}
