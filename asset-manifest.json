@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/stardewsingles/static/css/main.23cf69d1.css",
+    "main.js": "/stardewsingles/static/js/main.b7c87a7e.js",
+    "static/media/Stardew.png": "/stardewsingles/static/media/Stardew.acdfc8dbe4f82c9a98d4.png",
+    "index.html": "/stardewsingles/index.html",
+    "main.23cf69d1.css.map": "/stardewsingles/static/css/main.23cf69d1.css.map",
+    "main.b7c87a7e.js.map": "/stardewsingles/static/js/main.b7c87a7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23cf69d1.css",
+    "static/js/main.b7c87a7e.js"
+  ]
+}
